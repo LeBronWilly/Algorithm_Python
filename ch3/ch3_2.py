@@ -19,10 +19,10 @@ class Linked_list():
 
 link = Linked_list()
 link.head = Node(5)
-n2 = Node(15)                       # 節點 2
-n3 = Node(25)                       # 節點 3
-link.head.next = n2                 # 節點 1 指向節點 2
-n2.next = n3                        # 節點 2 指向節點 3
+# n2 = Node(15)                       # 節點 2
+# n3 = Node(25)                       # 節點 3
+link.head.next = n2 = Node(15)                 # 節點 1 指向節點 2
+n2.next = n3 = Node(25)                        # 節點 2 指向節點 3
 link.print_list()                   # 列印鏈結串列 link
     
 

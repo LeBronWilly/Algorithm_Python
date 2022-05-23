@@ -57,5 +57,3 @@ double_link.print_list_from_tail()  # 從尾部列印雙向鏈結串列
 
 
 
-
-
