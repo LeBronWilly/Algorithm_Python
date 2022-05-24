@@ -15,11 +15,8 @@ def factorial(n):
         return fact
 
 fact = 0
-N = eval(input("請輸入階乘數 : "))
+# N = int(input("請輸入階乘數 : "))
+N = 3
 print(N, " 的階乘結果是 = ", factorial(N))
 
 
-
-
-
-    
