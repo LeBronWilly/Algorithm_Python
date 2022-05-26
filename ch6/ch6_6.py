@@ -29,29 +29,9 @@ class Node():
         if self.right:                          # 如果右子節點存在
             self.right.postorder()              # 遞迴呼叫下一層
         print(self.data)                        # 列印    
-        
+
 tree = Node()                                   # 建立二元樹物件
 datas = [10, 21, 5, 9, 13, 28]                  # 建立二元樹數據
 for d in datas:
     tree.insert(d)                              # 分別插入數據
 tree.postorder()                                # 後序列印
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

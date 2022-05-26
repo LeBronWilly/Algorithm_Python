@@ -65,7 +65,7 @@ class Delete_Node():
         while node.right:                       # 如果是否則node是最大值節點
             node = node.right
         return node
-        
+
 tree = Node()                                   # 建立二元樹物件
 datas = [10, 5, 21, 9, 13, 28, 3, 4, 1, 17, 32] # 建立二元樹數據
 for d in datas:
@@ -76,22 +76,3 @@ print("刪除 %d 資料後" % del_data)
 delete_obj = Delete_Node()                      # 建立刪除節點物件
 result = delete_obj.deleteNode(tree, del_data)  # 刪除操作
 result.inorder()                                # 中序列印
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

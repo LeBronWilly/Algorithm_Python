@@ -34,7 +34,7 @@ class Node():
             return self.right.search(val)              
         else:
             return str(val) + " 找到了"
-                       
+
 tree = Node()                                   # 建立二元樹物件
 datas = [10, 21, 5, 9, 13, 28]                  # 建立二元樹數據
 for d in datas:
@@ -42,23 +42,3 @@ for d in datas:
 
 n = eval(input("請輸入欲搜尋資料 : "))
 print(tree.search(n))
-                  
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

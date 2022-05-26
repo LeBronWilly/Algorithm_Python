@@ -16,7 +16,7 @@ def create_btree(tree, data):
                     level = level * 2 + 1   # 放在左子節點
         tree[level] = data[i]               # 找到數據應存放的節點索引
         print(i, tree)                      # 取消此註解可以看到建立二元樹的過程
-            
+
 btree = [0] * 8                             # 二元樹陣列
 data = [10, 21, 5, 9, 13, 28]
 create_btree(btree, data)
